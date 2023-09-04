@@ -3,7 +3,7 @@ SELECT *
 FROM crime_scene_report
 WHERE date = 20180115 AND city LIKE 'SQL%' and type = 'murder';
 
---Querying for the first witness info --
+-- Querying for the first witness info --
 SELECT * 
 FROM person 
 WHERE address_street_name 
